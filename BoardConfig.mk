@@ -3,6 +3,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Partitions
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3238002688
+BOARD_VENDORIMAGE_PARTITION_SIZE := 620756992
+
 # Include the common OEM chipset BoardConfig.
 include device/motorola/sm6125-common/BoardConfigCommon.mk
 
