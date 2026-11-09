@@ -3,6 +3,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2280
+TARGET_SCREEN_WIDTH := 1080
+
 # Overlay
 PRODUCT_PACKAGES += \
     SettingsProvider-Doha-Overlay
