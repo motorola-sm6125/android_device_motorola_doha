@@ -7,6 +7,10 @@
 TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
 
+# Init
+PRODUCT_PACKAGES += \
+    fstab.qcom
+
 # Overlay
 PRODUCT_PACKAGES += \
     SettingsProvider-Doha-Overlay

@@ -18,5 +18,10 @@ TARGET_KERNEL_CONFIG += vendor/motorola/doha.config
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# Recovery
+BOARD_USES_RECOVERY_AS_BOOT := true
+TARGET_NO_RECOVERY := true
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
+
 # Include the proprietary files BoardConfig.
 include vendor/motorola/doha/BoardConfigVendor.mk
